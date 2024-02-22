@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #Program to display Best School ten times using while loop
 
-number = 0
-
-while number <= 10:
-    print(Best School)
-    number = number + 1
+number=0
+while [ $number -lt 10 ]
+do
+    echo "Best School"
+    let number=number+1
+done
