@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Program to display Best School ten times using while loop
 
-number = 1
+number = 0
 
 while number <= 10:
     print(Best School)
